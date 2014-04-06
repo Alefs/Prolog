@@ -1,4 +1,3 @@
 tikai(_,[]) :- !.
-tikai(X,[Galva|Aste]) :-
-    X=Galva,
+tikai(X,[X|Aste]) :-
     tikai(X,Aste).
